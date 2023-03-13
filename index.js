@@ -37,7 +37,7 @@ server.on('request', function (req, res) {
 
     } else {
         res.writeHead(404, { 'Content-Type': 'text/plain' });           // just the string feedback not html-typed feedback
-        res.end('Resource is not found!');
+        res.end('Resource is not found! Where is that feedback on the /hello or /goodbye!');
     }
 
 });
